@@ -1,17 +1,12 @@
-# ============================================================
+
 # HOUSE PRICE PREDICTION - STREAMLIT APP
-# Run: streamlit run app.py
-# ============================================================
 
 import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
 import os
-
-# ─────────────────────────────────────────────────
 # Page Config
-# ─────────────────────────────────────────────────
 st.set_page_config(
     page_title="House Price Predictor",
     page_icon="🏠",
